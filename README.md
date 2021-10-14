@@ -1,7 +1,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/self-attention-for-audio-super-resolution/audio-super-resolution-on-voice-bank-corpus-1)](https://paperswithcode.com/sota/audio-super-resolution-on-voice-bank-corpus-1?p=self-attention-for-audio-super-resolution)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/self-attention-for-audio-super-resolution/audio-super-resolution-on-vctk-multi-speaker-1)](https://paperswithcode.com/sota/audio-super-resolution-on-vctk-multi-speaker-1?p=self-attention-for-audio-super-resolution)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/self-attention-for-audio-super-resolution/audio-super-resolution-on-piano-1)](https://paperswithcode.com/sota/audio-super-resolution-on-piano-1?p=self-attention-for-audio-super-resolution)
-# AFILM
+# AFiLM
 ### [Paper arXiv](https://arxiv.org/abs/2108.11637)
 ## MLSP 2020 Self-Attention for Audio Super-resolution 
 
