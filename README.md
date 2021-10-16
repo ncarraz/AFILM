@@ -1,6 +1,6 @@
 # AFiLM
 ### [Paper arXiv](https://arxiv.org/abs/2108.11637)
-## MLSP 2020 Self-Attention for Audio Super-resolution 
+## MLSP 2021 Self-Attention for Audio Super-resolution 
 
 ### Dependencies
 
