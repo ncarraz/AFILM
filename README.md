@@ -15,6 +15,18 @@ Additional packages:
 ### Data
 Data preparation is the same as [TFiLM](https://github.com/kuleshov/audio-super-res) . The main dataset is VCTK speech. The model expects `.h5` archives contaning pairs of high and low resolution sound patches. 
 
+### Pre-trained models
+The shared models were trained in a similar way to previous audio super-resolution models for fair comparison purposes. If you will be able to get better results by training them longer. Moreover, the models do not generalize to other domains. If you recordings are very different from the dataset, you should collect additional data. 
+
+| Scale |   Dataset   |   Model  |
+|-------|:-----------:|:--------:|
+| 2     | VCTK Single | [Download](https://drive.google.com/file/d/1aT72PhsFJILvdauAh5g8O87qj3Fisfis/view?usp=sharing) |
+| 2     |  VCTK Multi | [Download](https://drive.google.com/file/d/1Uw06eSpOHA_qZWX6DZxa1I6UgbU9lpqI/view?usp=sharing) |
+| 4     | VCTK Single | [Download](https://drive.google.com/file/d/1-AR-Cn1q1QeuDSeaP4RTcBSZ3s63j5rO/view?usp=sharing) |
+| 4     | VCTK Multi  | [Download](https://drive.google.com/file/d/1-5JfveMwPWS-3C2V8pJx7QJ4PzG24N55/view?usp=sharing) |
+| 8     | VCTK Single | [Download](https://drive.google.com/file/d/1-AlWbNt1M8UgqdRpMC41C42zLHymGGwG/view?usp=sharing) |
+| 8     | VCTK Multi  | [Download](https://drive.google.com/file/d/1-AfiNBinwq1y52JWQ4J9l4Z0j0bCKQgQ/view?usp=sharing) |
+
 ### Training
 Run the `codes/train.py` script.
 ```
