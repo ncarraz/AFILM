@@ -16,7 +16,7 @@ Additional packages:
 Data preparation is the same as [TFiLM](https://github.com/kuleshov/audio-super-res) . The main dataset is VCTK speech. The model expects `.h5` archives contaning pairs of high and low resolution sound patches. 
 
 ### Pre-trained models
-The shared models were trained in a similar way to previous audio super-resolution models for fair comparison purposes. If you will be able to get better results by training them longer. Moreover, the models do not generalize to other domains. If you recordings are very different from the dataset, you should collect additional data. 
+The shared models were trained in a similar way to previous audio super-resolution models for fair comparison purposes. You will be able to get better results by training them longer. Moreover, the models do not generalize to other domains. If you recordings are very different from the dataset, you should collect additional data. 
 
 | Scale |   Dataset   |   Model  |
 |-------|:-----------:|:--------:|
