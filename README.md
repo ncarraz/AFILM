@@ -1,8 +1,10 @@
-# AFiLM
+# Self-Attention for Audio Super-resolution 
 ### [Paper arXiv](https://arxiv.org/abs/2108.11637)
-## MLSP 2021 Self-Attention for Audio Super-resolution 
+### [Paper IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9596082)
 
-### Dependencies
+<img align="middle" src="img/AFiLM.PNG" alt="AFILM">
+
+## Dependencies
 
 The model is implemented in Python 3.7.12 \
 Additional packages: 
@@ -12,10 +14,10 @@ Additional packages:
 - `numpy==1.19.5`
 - `scipy==1.4.1`
 
-### Data
+## Data
 Data preparation is the same as [TFiLM](https://github.com/kuleshov/audio-super-res) . The main dataset is VCTK speech. The model expects `.h5` archives contaning pairs of high and low resolution sound patches. 
 
-### Pre-trained models
+## Pre-trained models
 The shared models were trained in a similar way to previous audio super-resolution models for fair comparison purposes. You will be able to get better results by training them longer. Moreover, the models do not generalize to other domains. If you recordings are very different from the dataset, you should collect additional data. 
 
 | Scale |   Dataset   |   Model  |
@@ -27,7 +29,7 @@ The shared models were trained in a similar way to previous audio super-resoluti
 | 8     | VCTK Single | [Download](https://drive.google.com/file/d/1-AlWbNt1M8UgqdRpMC41C42zLHymGGwG/view?usp=sharing) |
 | 8     | VCTK Multi  | [Download](https://drive.google.com/file/d/1-AfiNBinwq1y52JWQ4J9l4Z0j0bCKQgQ/view?usp=sharing) |
 
-### Training
+## Training
 Run the `codes/train.py` script.
 ```
 usage: train.py [-h] [--model {afilm,tfilm}] --train TRAIN --val VAL
@@ -59,7 +61,7 @@ optional arguments:
   --strides STRIDES     pooling stide
 ```
 
-### Testing 
+## Testing 
 Run the `codes/test.py` script.
 ```
 usage: test.py [-h] --pretrained_model PRETRAINED_MODEL
@@ -82,6 +84,18 @@ optional arguments:
                         Size of patches over which the model operates
 ```
 
+## Citation  
+
+    @INPROCEEDINGS{9596082,
+    author={Rakotonirina, Nathanaël Carraz},
+    booktitle={2021 IEEE 31st International Workshop on Machine Learning for Signal Processing (MLSP)}, 
+    title={Self-Attention for Audio Super-Resolution}, 
+    year={2021},
+    volume={},
+    number={},
+    pages={1-6},
+    keywords={Training;Recurrent neural networks;Convolution;Superresolution;Modulation;Machine learning;Network architecture;audio super-resolution;bandwidth extension;self-attention},
+    doi={10.1109/MLSP52302.2021.9596082}}
 
 
 
