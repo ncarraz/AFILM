@@ -22,12 +22,9 @@ The shared models were trained in a similar way to previous audio super-resoluti
 
 | Scale |   Dataset   |   Model  |
 |-------|:-----------:|:--------:|
-| 2     | VCTK Single | [Download](https://drive.google.com/file/d/1aT72PhsFJILvdauAh5g8O87qj3Fisfis/view?usp=sharing) |
-| 2     |  VCTK Multi | [Download](https://drive.google.com/file/d/1Uw06eSpOHA_qZWX6DZxa1I6UgbU9lpqI/view?usp=sharing) |
-| 4     | VCTK Single | [Download](https://drive.google.com/file/d/1-AR-Cn1q1QeuDSeaP4RTcBSZ3s63j5rO/view?usp=sharing) |
-| 4     | VCTK Multi  | [Download](https://drive.google.com/file/d/1-5JfveMwPWS-3C2V8pJx7QJ4PzG24N55/view?usp=sharing) |
-| 8     | VCTK Single | [Download](https://drive.google.com/file/d/1-AlWbNt1M8UgqdRpMC41C42zLHymGGwG/view?usp=sharing) |
-| 8     | VCTK Multi  | [Download](https://drive.google.com/file/d/1-AfiNBinwq1y52JWQ4J9l4Z0j0bCKQgQ/view?usp=sharing) |
+| 2     |  VCTK Multi | [Download](https://drive.google.com/file/d/1jH3JVShN06uoQKh5-muP8U-iu9HSIB_-/view?usp=sharing) |
+| 4     | VCTK Multi  | [Download](https://drive.google.com/file/d/17KMnH3FsAK8fsPC-HFefNfIM6uyJqi4X/view?usp=sharing) |
+| 8     | VCTK Multi  | [Download](https://drive.google.com/file/d/1TioGTRT-YQHaXS39HJsc9CvJlYWWzZ9y/view?usp=sharing) |
 
 ## Training
 Run the `codes/train.py` script.
