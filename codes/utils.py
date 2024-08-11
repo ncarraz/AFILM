@@ -5,7 +5,6 @@ import librosa
 import soundfile as sf
 from scipy import interpolate
 
-from scipy.signal import decimate
 from matplotlib import pyplot as plt
 
 
@@ -36,11 +35,11 @@ def spline_up(x_lr, r):
 def upsample_wav(wav, args, model, save_spectrum=False):
     # load signal
     x_hr, fs = librosa.load(wav, sr=args.sr)
-    x_lr_t = decimate(x_hr, args.r)
+    x_lr_t = np.array(x_hr[0::args.r])
     # pad to mutliple of patch size to ensure model runs over entire sample
     x_hr = np.pad(x_hr, (0, args.patch_size - (x_hr.shape[0] % args.patch_size)), 'constant', constant_values=(0,0))
-    # downscale signal
-    x_lr = decimate(x_hr, args.r)
+    # downscale signal same as in data preparation
+    x_lr = np.array(x_hr[0::args.r])
 
     # upscale the low-res version
     x_lr = x_lr.reshape((1,len(x_lr),1))
