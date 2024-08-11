@@ -24,7 +24,7 @@ def make_parser():
 
 def test(args):
     # load model
-    model = keras.models.load_model(args.pretrained_model, custom_objects={"TFiLMSS":AFiLM, "TFiLM":TFiLM})
+    model = keras.models.load_model(args.pretrained_model, custom_objects={"AFiLM":AFiLM, "TFiLMSS":AFiLM, "TFiLM":TFiLM})
     upsample_wav(args.wav_file_list, args, model)
 
 def main():
